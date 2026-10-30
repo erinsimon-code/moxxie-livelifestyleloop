@@ -15,7 +15,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-32">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
-              <span className="text-2xl font-bold" style={{ color: '#6366F1' }}>My Point Penguin</span>
+              <span className="text-2xl font-bold" style={{ color: '#6366F1' }}>Point Penguin Plus</span>
             </Link>
           </div>
           <div className="hidden md:block">

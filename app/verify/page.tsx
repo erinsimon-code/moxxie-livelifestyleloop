@@ -72,7 +72,7 @@ function VerifyPageContent() {
     <div className="min-h-screen flex items-center justify-center px-4" style={{ backgroundColor: '#030712' }}>
       <div className="max-w-sm w-full rounded-2xl shadow-md p-8" style={{ backgroundColor: '#1F2937' }}>
         <div className="flex justify-center mb-6">
-          <span className="text-2xl font-bold" style={{ color: '#6366F1' }}>My Point Penguin</span>
+          <span className="text-2xl font-bold" style={{ color: '#6366F1' }}>Point Penguin Plus</span>
         </div>
         <div className="flex justify-center mb-5">
           <div className="w-16 h-16 rounded-full flex items-center justify-center" style={{ backgroundColor: '#111827' }}>
@@ -105,7 +105,7 @@ function VerifyPageContent() {
             </span>
           ) : 'Submit'}
         </button>
-        <p className="text-xs text-center mt-6" style={{ color: '#9CA3AF' }}>Protected by My Point Penguin</p>
+        <p className="text-xs text-center mt-6" style={{ color: '#9CA3AF' }}>Protected by Point Penguin Plus</p>
       </div>
     </div>
   );

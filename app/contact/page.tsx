@@ -25,7 +25,7 @@ export default function ContactPage() {
       <section className="py-12" style={{ backgroundColor: '#1F2937' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold mb-4" style={{ color: '#F9FAFB' }}>Get In Touch</h1>
-          <p className="text-lg" style={{ color: '#9CA3AF' }}>Questions about setting up shift milestones, safety recognition, or attendance streaks for your crew? We'd love to hear from you.</p>
+          <p className="text-lg" style={{ color: '#9CA3AF' }}>Questions about setting up shift milestones, safety recognition, attendance streaks, or manager shout-outs for your crew? We'd love to hear from you.</p>
         </div>
       </section>
       <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -60,6 +60,7 @@ export default function ContactPage() {
                     <option value="shift-milestones">Shift Milestones Setup</option>
                     <option value="safety-program">Safety Recognition Program</option>
                     <option value="attendance">Attendance Streaks Setup</option>
+                    <option value="shoutouts">Manager Shout-Outs Setup</option>
                     <option value="sms-optout">SMS Opt-Out Request</option>
                     <option value="sms-help">SMS Help</option>
                     <option value="privacy">Privacy / Data Request</option>
@@ -82,7 +83,7 @@ export default function ContactPage() {
               <div className="space-y-4">
                 <div>
                   <h3 className="text-sm font-semibold uppercase tracking-wide mb-1" style={{ color: '#9CA3AF' }}>Email</h3>
-                  <a href="mailto:support@mypointpenguin.com" className="text-base font-medium hover:underline" style={{ color: '#6366F1' }}>support@mypointpenguin.com</a>
+                  <a href="mailto:support@pointpenguinplus.com" className="text-base font-medium hover:underline" style={{ color: '#6366F1' }}>support@pointpenguinplus.com</a>
                   <p className="text-sm mt-1" style={{ color: '#9CA3AF' }}>We typically reply within 1–2 business days</p>
                 </div>
                 <div>
@@ -91,7 +92,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-sm font-semibold uppercase tracking-wide mb-1" style={{ color: '#9CA3AF' }}>Mailing Address</h3>
-                  <p style={{ color: '#9CA3AF' }}>My Point Penguin<br />800 N King Street 304-1991<br />Wilmington, DE 19801</p>
+                  <p style={{ color: '#9CA3AF' }}>Point Penguin Plus<br />800 N King Street, Suite 304-1991<br />Wilmington, DE 19801</p>
                 </div>
                 <div>
                   <h3 className="text-sm font-semibold uppercase tracking-wide mb-1" style={{ color: '#9CA3AF' }}>Text Support</h3>

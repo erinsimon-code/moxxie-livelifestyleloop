@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My Point Penguin | Recognition for Frontline & Hourly Teams",
-  description: "My Point Penguin helps frontline and hourly teams earn real, redeemable points for shift milestones, safety wins, and attendance streaks.",
+  title: "Point Penguin Plus | Recognition for Frontline & Hourly Teams",
+  description: "Point Penguin Plus helps frontline and hourly teams earn real, redeemable points for shift milestones, safety recognition, attendance streaks, and manager shout-outs.",
 };
 
 export default function RootLayout({

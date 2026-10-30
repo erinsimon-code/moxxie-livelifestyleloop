@@ -103,13 +103,13 @@ export default function SignupPage() {
                 <div className="flex items-start gap-3">
                   <input type="checkbox" id="accountNotifications" checked={accountNotifications} onChange={(e) => setAccountNotifications(e.target.checked)} className="mt-1 w-4 h-4 rounded" style={{ accentColor: '#6366F1' }} />
                   <label htmlFor="accountNotifications" className="text-sm" style={{ color: '#9CA3AF' }}>
-                    Checking this box means I'm okay receiving account notification texts from My Point Penguin at the number I've listed above. I can text STOP anytime to opt out, or HELP if I need assistance. Message and data rates may apply, and frequency can vary. This isn't required to submit the form, and agreeing isn't a condition of buying anything from us.
+                    Checking this box means I'm okay receiving account notification texts from Point Penguin Plus at the number I've listed above. I can text STOP anytime to opt out, or HELP if I need assistance. Message and data rates may apply, and frequency can vary. This isn't required to submit the form, and agreeing isn't a condition of buying anything from us.
                   </label>
                 </div>
                 <div className="flex items-start gap-3">
                   <input type="checkbox" id="customerCare" checked={customerCare} onChange={(e) => setCustomerCare(e.target.checked)} className="mt-1 w-4 h-4 rounded" style={{ accentColor: '#6366F1' }} />
                   <label htmlFor="customerCare" className="text-sm" style={{ color: '#9CA3AF' }}>
-                    Checking this box means I'm okay receiving promotional texts from My Point Penguin at the number above, such as program updates and new reward announcements. I can text STOP anytime to opt out, or HELP if I need assistance. Message and data rates may apply, and frequency can vary. This isn't required to submit the form, and agreeing isn't a condition of buying anything from us.
+                    Checking this box means I'm okay receiving promotional texts from Point Penguin Plus at the number above, such as program updates and new reward announcements. I can text STOP anytime to opt out, or HELP if I need assistance. Message and data rates may apply, and frequency can vary. This isn't required to submit the form, and agreeing isn't a condition of buying anything from us.
                   </label>
                 </div>
               </div>

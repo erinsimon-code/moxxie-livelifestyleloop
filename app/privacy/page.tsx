@@ -22,8 +22,8 @@ export default function PrivacyPage() {
           <p className="mb-4" style={{ color: '#9CA3AF' }}>Signing up for or using the service may involve us gathering:</p>
           <ul className="list-disc pl-6 mb-6 space-y-2" style={{ color: '#9CA3AF' }}>
             <li>Your name along with contact details like email and phone number</li>
-            <li>Details about your employer and place of work</li>
-            <li>Your points total, recognition history, and record of reward redemptions</li>
+            <li>Details about your employer, work site, and shift schedule</li>
+            <li>Your points total, along with shift milestone, safety win, and attendance streak history</li>
             <li>Your chosen SMS opt-in preferences (transactional notifications and/or promotional messages)</li>
           </ul>
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#F9FAFB' }}>3. Text Messaging</h2>
@@ -39,8 +39,8 @@ export default function PrivacyPage() {
           </ul>
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#F9FAFB' }}>4. How Your Information Gets Used</h2>
           <ul className="list-disc pl-6 mb-6 space-y-2" style={{ color: '#9CA3AF' }}>
-            <li>Running and improving our recognition and rewards platform</li>
-            <li>Keeping track of and managing points, recognition activity, and redemptions</li>
+            <li>Running and improving our shift, safety, and attendance recognition platform</li>
+            <li>Tracking and managing points, shift milestones, safety wins, attendance streaks, and redemptions</li>
             <li>Responding to your account questions or general inquiries</li>
             <li>Delivering the text messages you've chosen to receive</li>
             <li>Meeting any applicable legal requirements</li>

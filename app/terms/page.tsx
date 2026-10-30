@@ -20,7 +20,7 @@ export default function TermsPage() {
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#F9FAFB' }}>2. What the Service Does</h2>
           <p className="mb-6" style={{ color: '#9CA3AF' }}>
-            Through www.mypointpenguin.com, My Point Penguin gives organizations a way to recognize their people and lets employees build up and cash in points for rewards.
+            Through www.mypointpenguin.com, My Point Penguin gives employers a way to recognize frontline and hourly workers for shift milestones, safety wins, and attendance streaks, and lets employees build up and cash in points for rewards.
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#F9FAFB' }}>3. Text Message Program</h2>
           <p className="mb-4" style={{ color: '#9CA3AF' }}>

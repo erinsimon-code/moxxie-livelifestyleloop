@@ -34,10 +34,10 @@ export default function SignupPage() {
       <section className="py-12" style={{ backgroundColor: '#1F2937' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl font-extrabold mb-4" style={{ color: '#F9FAFB' }}>
-            Give Your Team Rewards — No Cost
+            Give Your Frontline Crew Rewards — No Cost
           </h1>
           <p className="text-xl max-w-2xl mx-auto" style={{ color: '#9CA3AF' }}>
-            Fill out the short form below and we'll get recognition and rewards up and running for your people.
+            Fill out the short form below and we'll get shift milestone, safety, and attendance recognition up and running for your team.
           </p>
         </div>
       </section>
@@ -84,7 +84,7 @@ export default function SignupPage() {
               </div>
               <div>
                 <label className="block text-sm font-medium mb-2" style={{ color: '#F9FAFB' }}>Anything else we should know?</label>
-                <textarea name="message" rows={4} value={formData.message} onChange={handleChange} placeholder="Tell us a bit about your team..." className="w-full px-4 py-3 rounded-lg border focus:outline-none text-white" style={{ borderColor: '#374151', backgroundColor: '#111827' }} />
+                <textarea name="message" rows={4} value={formData.message} onChange={handleChange} placeholder="Tell us about your shifts, safety goals, or attendance needs..." className="w-full px-4 py-3 rounded-lg border focus:outline-none text-white" style={{ borderColor: '#374151', backgroundColor: '#111827' }} />
               </div>
 
               {/* Privacy Policy & Terms — checkbox */}

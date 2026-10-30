@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">My Point Penguin</h3>
             <p style={{ color: '#F9FAFB' }}>
-              A platform built to help organizations thank their people and turn great effort into real rewards.
+              A platform built to help employers recognize frontline and hourly teams for shift milestones, safety wins, and attendance streaks.
             </p>
           </div>
           <div>

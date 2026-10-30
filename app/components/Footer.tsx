@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">My Point Penguin</h3>
             <p style={{ color: '#F9FAFB' }}>
-              The employee rewards and recognition platform that helps teams celebrate great work.
+              A platform built to help organizations thank their people and turn great effort into real rewards.
             </p>
           </div>
           <div>
@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 pt-8 text-center" style={{ borderTop: '1px solid #F43F5E', color: '#F9FAFB' }}>
           <p>&copy; 2026 My Point Penguin. All rights reserved.</p>
-          <p className="mt-2 text-sm">My Point Penguin is operated by The Point Penguin LLC.</p>
+          <p className="mt-2 text-sm">My Point Penguin is a service of The Point Penguin LLC.</p>
         </div>
       </div>
     </footer>

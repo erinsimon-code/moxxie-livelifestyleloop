@@ -34,10 +34,10 @@ export default function SignupPage() {
       <section className="py-12" style={{ backgroundColor: '#1F2937' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl font-extrabold mb-4" style={{ color: '#F9FAFB' }}>
-            Bring Rewards to Your Team — Free
+            Give Your Team Rewards — No Cost
           </h1>
           <p className="text-xl max-w-2xl mx-auto" style={{ color: '#9CA3AF' }}>
-            Fill out the form below to set up employee recognition and rewards for your team.
+            Fill out the short form below and we'll get recognition and rewards up and running for your people.
           </p>
         </div>
       </section>
@@ -51,10 +51,10 @@ export default function SignupPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <h2 className="text-3xl font-bold mb-4" style={{ color: '#F9FAFB' }}>Request Received!</h2>
-              <p className="text-lg mb-8" style={{ color: '#9CA3AF' }}>Your submission has been received. Our team will reach out within 24 hours.</p>
+              <h2 className="text-3xl font-bold mb-4" style={{ color: '#F9FAFB' }}>You're All Set!</h2>
+              <p className="text-lg mb-8" style={{ color: '#9CA3AF' }}>We've got your request. Someone from our team will follow up with you within the next 24 hours.</p>
               <Link href="/" className="inline-block px-6 py-3 text-white font-semibold rounded-lg transition-opacity hover:opacity-90" style={{ backgroundColor: '#6366F1' }}>
-                Return to Home
+                Back to Home
               </Link>
             </div>
           ) : (
@@ -83,15 +83,15 @@ export default function SignupPage() {
                 </div>
               </div>
               <div>
-                <label className="block text-sm font-medium mb-2" style={{ color: '#F9FAFB' }}>How can we help you?</label>
-                <textarea name="message" rows={4} value={formData.message} onChange={handleChange} placeholder="Tell us about your team..." className="w-full px-4 py-3 rounded-lg border focus:outline-none text-white" style={{ borderColor: '#374151', backgroundColor: '#111827' }} />
+                <label className="block text-sm font-medium mb-2" style={{ color: '#F9FAFB' }}>Anything else we should know?</label>
+                <textarea name="message" rows={4} value={formData.message} onChange={handleChange} placeholder="Tell us a bit about your team..." className="w-full px-4 py-3 rounded-lg border focus:outline-none text-white" style={{ borderColor: '#374151', backgroundColor: '#111827' }} />
               </div>
 
               {/* Privacy Policy & Terms — checkbox */}
               <div className="flex items-start gap-3 pt-2">
                 <input type="checkbox" id="termsAgreement" required className="mt-1 w-4 h-4 rounded" style={{ accentColor: '#6366F1' }} />
                 <label htmlFor="termsAgreement" className="text-sm" style={{ color: '#9CA3AF' }}>
-                  I have read and agree to the{' '}
+                  I've read and accept the{' '}
                   <a href="/privacy" style={{ color: '#6366F1' }} className="underline">Privacy Policy</a>
                   {' '}and{' '}
                   <a href="/terms" style={{ color: '#6366F1' }} className="underline">Terms of Service</a>. *
@@ -103,19 +103,19 @@ export default function SignupPage() {
                 <div className="flex items-start gap-3">
                   <input type="checkbox" id="accountNotifications" checked={accountNotifications} onChange={(e) => setAccountNotifications(e.target.checked)} className="mt-1 w-4 h-4 rounded" style={{ accentColor: '#6366F1' }} />
                   <label htmlFor="accountNotifications" className="text-sm" style={{ color: '#9CA3AF' }}>
-                    By checking this box, I agree to receive Transactional Account Notification SMS messages from My Point Penguin at the phone number provided. I understand I may opt out at any time by replying STOP. Reply HELP for help. Message and data rates may apply. Message frequency varies. Opting in is optional and not required to submit this form. Consent is not required as a condition of purchasing any products or services.
+                    Checking this box means I'm okay receiving account notification texts from My Point Penguin at the number I've listed above. I can text STOP anytime to opt out, or HELP if I need assistance. Message and data rates may apply, and frequency can vary. This isn't required to submit the form, and agreeing isn't a condition of buying anything from us.
                   </label>
                 </div>
                 <div className="flex items-start gap-3">
                   <input type="checkbox" id="customerCare" checked={customerCare} onChange={(e) => setCustomerCare(e.target.checked)} className="mt-1 w-4 h-4 rounded" style={{ accentColor: '#6366F1' }} />
                   <label htmlFor="customerCare" className="text-sm" style={{ color: '#9CA3AF' }}>
-                    By checking this box, I agree to receive Promotional Marketing SMS messages from My Point Penguin at the phone number provided, including rewards program updates, new rewards and announcements. I understand I may opt out at any time by replying STOP. Reply HELP for help. Message and data rates may apply. Message frequency varies. Opting in is optional and not required to submit this form. Consent is not required as a condition of purchasing any products or services.
+                    Checking this box means I'm okay receiving promotional texts from My Point Penguin at the number above, such as program updates and new reward announcements. I can text STOP anytime to opt out, or HELP if I need assistance. Message and data rates may apply, and frequency can vary. This isn't required to submit the form, and agreeing isn't a condition of buying anything from us.
                   </label>
                 </div>
               </div>
 
               <button type="submit" disabled={isSubmitting} className="w-full py-4 text-white text-lg font-semibold rounded-lg transition-opacity hover:opacity-90" style={{ backgroundColor: isSubmitting ? '#9CA3AF' : '#F43F5E' }}>
-                {isSubmitting ? 'Submitting...' : 'Get Started'}
+                {isSubmitting ? 'Submitting...' : 'Sign Us Up'}
               </button>
             </form>
           )}

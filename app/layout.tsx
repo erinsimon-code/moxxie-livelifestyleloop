@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My Point Penguin - Employee Rewards & Recognition Platform",
-  description: "My Point Penguin is an employee rewards and recognition platform that helps companies celebrate great work and reward employees with real, redeemable points.",
+  title: "My Point Penguin | Employee Recognition & Rewards",
+  description: "My Point Penguin helps organizations celebrate great work by giving employees real, redeemable points for recognition and achievement.",
 };
 
 export default function RootLayout({

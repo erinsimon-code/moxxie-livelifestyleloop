@@ -79,7 +79,7 @@ function VerifyPageContent() {
             <CheckCircle className="w-8 h-8" style={{ color: '#F43F5E' }} strokeWidth={1.5} />
           </div>
         </div>
-        <h2 className="text-xl font-bold text-center mb-6" style={{ color: '#F9FAFB' }}>Verify Your Number</h2>
+        <h2 className="text-xl font-bold text-center mb-6" style={{ color: '#F9FAFB' }}>Confirm Your Phone Number</h2>
         <input
           type="tel"
           value={phone}
@@ -105,7 +105,7 @@ function VerifyPageContent() {
             </span>
           ) : 'Submit'}
         </button>
-        <p className="text-xs text-center mt-6" style={{ color: '#9CA3AF' }}>Secured by My Point Penguin</p>
+        <p className="text-xs text-center mt-6" style={{ color: '#9CA3AF' }}>Protected by My Point Penguin</p>
       </div>
     </div>
   );

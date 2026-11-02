@@ -28,32 +28,32 @@ export default function SignupPage() {
   };
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#030712' }}>
+    <div className="min-h-screen" style={{ backgroundColor: '#0B1512' }}>
       <Navbar />
 
-      <section className="py-12" style={{ backgroundColor: '#1F2937' }}>
+      <section className="py-12" style={{ backgroundColor: '#15261F' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl font-extrabold mb-4" style={{ color: '#F9FAFB' }}>
-            Give Your Frontline Crew Rewards — No Cost
+          <h1 className="text-4xl font-extrabold mb-4" style={{ color: '#F2FBF7' }}>
+            Start Your Lifestyle Loop
           </h1>
-          <p className="text-xl max-w-2xl mx-auto" style={{ color: '#9CA3AF' }}>
-            Fill out the short form below and we'll get shift milestone, safety, and attendance recognition up and running for your team.
+          <p className="text-xl max-w-2xl mx-auto" style={{ color: '#94A9A0' }}>
+            Fill out the short form below and we'll get you set up with your first habit, your first check-in, and your first streak.
           </p>
         </div>
       </section>
 
       <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="rounded-2xl shadow-xl p-8 md:p-12" style={{ backgroundColor: '#1F2937', border: '1px solid #374151' }}>
+        <div className="rounded-2xl shadow-xl p-8 md:p-12" style={{ backgroundColor: '#15261F', border: '1px solid #233A30' }}>
           {submitStatus === 'success' ? (
             <div className="text-center py-12">
-              <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6" style={{ backgroundColor: '#111827' }}>
-                <svg className="w-10 h-10" style={{ color: '#F43F5E' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6" style={{ backgroundColor: '#0F1F19' }}>
+                <svg className="w-10 h-10" style={{ color: '#F59E0B' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <h2 className="text-3xl font-bold mb-4" style={{ color: '#F9FAFB' }}>You're All Set!</h2>
-              <p className="text-lg mb-8" style={{ color: '#9CA3AF' }}>We've got your request. Someone from our team will follow up with you within the next 24 hours.</p>
-              <Link href="/" className="inline-block px-6 py-3 text-white font-semibold rounded-lg transition-opacity hover:opacity-90" style={{ backgroundColor: '#6366F1' }}>
+              <h2 className="text-3xl font-bold mb-4" style={{ color: '#F2FBF7' }}>You're In the Loop!</h2>
+              <p className="text-lg mb-8" style={{ color: '#94A9A0' }}>We've got your request. Someone from our team will follow up with you within the next 24 hours to help you pick your first habit.</p>
+              <Link href="/" className="inline-block px-6 py-3 text-white font-semibold rounded-lg transition-opacity hover:opacity-90" style={{ backgroundColor: '#2DD4BF' }}>
                 Back to Home
               </Link>
             </div>
@@ -61,60 +61,60 @@ export default function SignupPage() {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <label className="block text-sm font-medium mb-2" style={{ color: '#F9FAFB' }}>Full Name *</label>
+                  <label className="block text-sm font-medium mb-2" style={{ color: '#F2FBF7' }}>Full Name *</label>
                   <div className="relative">
-                    <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: '#9CA3AF' }} />
-                    <input type="text" name="name" required value={formData.name} onChange={handleChange} placeholder="Jane Smith" className="w-full pl-10 pr-4 py-3 rounded-lg border focus:outline-none text-white" style={{ borderColor: '#374151', backgroundColor: '#111827' }} />
+                    <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: '#94A9A0' }} />
+                    <input type="text" name="name" required value={formData.name} onChange={handleChange} placeholder="Jane Smith" className="w-full pl-10 pr-4 py-3 rounded-lg border focus:outline-none text-white" style={{ borderColor: '#233A30', backgroundColor: '#0F1F19' }} />
                   </div>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-2" style={{ color: '#F9FAFB' }}>Email Address *</label>
+                  <label className="block text-sm font-medium mb-2" style={{ color: '#F2FBF7' }}>Email Address *</label>
                   <div className="relative">
-                    <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: '#9CA3AF' }} />
-                    <input type="email" name="email" required value={formData.email} onChange={handleChange} placeholder="jane@example.com" className="w-full pl-10 pr-4 py-3 rounded-lg border focus:outline-none text-white" style={{ borderColor: '#374151', backgroundColor: '#111827' }} />
+                    <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: '#94A9A0' }} />
+                    <input type="email" name="email" required value={formData.email} onChange={handleChange} placeholder="jane@example.com" className="w-full pl-10 pr-4 py-3 rounded-lg border focus:outline-none text-white" style={{ borderColor: '#233A30', backgroundColor: '#0F1F19' }} />
                   </div>
                 </div>
               </div>
               <div>
-                <label className="block text-sm font-medium mb-2" style={{ color: '#F9FAFB' }}>Phone Number *</label>
+                <label className="block text-sm font-medium mb-2" style={{ color: '#F2FBF7' }}>Phone Number *</label>
                 <div className="relative">
-                  <Phone className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: '#9CA3AF' }} />
-                  <input type="tel" name="phone" required value={formData.phone} onChange={handleChange} placeholder="(555) 555-5555" className="w-full pl-10 pr-4 py-3 rounded-lg border focus:outline-none text-white" style={{ borderColor: '#374151', backgroundColor: '#111827' }} />
+                  <Phone className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: '#94A9A0' }} />
+                  <input type="tel" name="phone" required value={formData.phone} onChange={handleChange} placeholder="(555) 555-5555" className="w-full pl-10 pr-4 py-3 rounded-lg border focus:outline-none text-white" style={{ borderColor: '#233A30', backgroundColor: '#0F1F19' }} />
                 </div>
               </div>
               <div>
-                <label className="block text-sm font-medium mb-2" style={{ color: '#F9FAFB' }}>Anything else we should know?</label>
-                <textarea name="message" rows={4} value={formData.message} onChange={handleChange} placeholder="Tell us about your shifts, safety goals, or attendance needs..." className="w-full px-4 py-3 rounded-lg border focus:outline-none text-white" style={{ borderColor: '#374151', backgroundColor: '#111827' }} />
+                <label className="block text-sm font-medium mb-2" style={{ color: '#F2FBF7' }}>Anything else we should know?</label>
+                <textarea name="message" rows={4} value={formData.message} onChange={handleChange} placeholder="Tell us about the habits you want to build or goals you're working toward..." className="w-full px-4 py-3 rounded-lg border focus:outline-none text-white" style={{ borderColor: '#233A30', backgroundColor: '#0F1F19' }} />
               </div>
 
               {/* Privacy Policy & Terms — checkbox */}
               <div className="flex items-start gap-3 pt-2">
-                <input type="checkbox" id="termsAgreement" required className="mt-1 w-4 h-4 rounded" style={{ accentColor: '#6366F1' }} />
-                <label htmlFor="termsAgreement" className="text-sm" style={{ color: '#9CA3AF' }}>
+                <input type="checkbox" id="termsAgreement" required className="mt-1 w-4 h-4 rounded" style={{ accentColor: '#2DD4BF' }} />
+                <label htmlFor="termsAgreement" className="text-sm" style={{ color: '#94A9A0' }}>
                   I've read and accept the{' '}
-                  <a href="/privacy" style={{ color: '#6366F1' }} className="underline">Privacy Policy</a>
+                  <a href="/privacy" style={{ color: '#2DD4BF' }} className="underline">Privacy Policy</a>
                   {' '}and{' '}
-                  <a href="/terms" style={{ color: '#6366F1' }} className="underline">Terms of Service</a>. *
+                  <a href="/terms" style={{ color: '#2DD4BF' }} className="underline">Terms of Service</a>. *
                 </label>
               </div>
 
               {/* SMS Consent Checkboxes */}
               <div className="space-y-4 pt-2">
                 <div className="flex items-start gap-3">
-                  <input type="checkbox" id="accountNotifications" checked={accountNotifications} onChange={(e) => setAccountNotifications(e.target.checked)} className="mt-1 w-4 h-4 rounded" style={{ accentColor: '#6366F1' }} />
-                  <label htmlFor="accountNotifications" className="text-sm" style={{ color: '#9CA3AF' }}>
-                    Checking this box means I'm okay receiving account notification texts from Point Penguin Plus at the number I've listed above. I can text STOP anytime to opt out, or HELP if I need assistance. Message and data rates may apply, and frequency can vary. This isn't required to submit the form, and agreeing isn't a condition of buying anything from us.
+                  <input type="checkbox" id="accountNotifications" checked={accountNotifications} onChange={(e) => setAccountNotifications(e.target.checked)} className="mt-1 w-4 h-4 rounded" style={{ accentColor: '#2DD4BF' }} />
+                  <label htmlFor="accountNotifications" className="text-sm" style={{ color: '#94A9A0' }}>
+                    Checking this box means I'm okay receiving account notification texts from Lifestyle Loop at the number I've listed above, like check-in reminders, streak updates, and points confirmations. I can text STOP anytime to opt out, or HELP if I need assistance. Message and data rates may apply, and frequency can vary. This isn't required to submit the form, and agreeing isn't a condition of buying anything from us.
                   </label>
                 </div>
                 <div className="flex items-start gap-3">
-                  <input type="checkbox" id="customerCare" checked={customerCare} onChange={(e) => setCustomerCare(e.target.checked)} className="mt-1 w-4 h-4 rounded" style={{ accentColor: '#6366F1' }} />
-                  <label htmlFor="customerCare" className="text-sm" style={{ color: '#9CA3AF' }}>
-                    Checking this box means I'm okay receiving promotional texts from Point Penguin Plus at the number above, such as program updates and new reward announcements. I can text STOP anytime to opt out, or HELP if I need assistance. Message and data rates may apply, and frequency can vary. This isn't required to submit the form, and agreeing isn't a condition of buying anything from us.
+                  <input type="checkbox" id="customerCare" checked={customerCare} onChange={(e) => setCustomerCare(e.target.checked)} className="mt-1 w-4 h-4 rounded" style={{ accentColor: '#2DD4BF' }} />
+                  <label htmlFor="customerCare" className="text-sm" style={{ color: '#94A9A0' }}>
+                    Checking this box means I'm okay receiving promotional texts from Lifestyle Loop at the number above, such as new habit challenges and new rewards in the catalog. I can text STOP anytime to opt out, or HELP if I need assistance. Message and data rates may apply, and frequency can vary. This isn't required to submit the form, and agreeing isn't a condition of buying anything from us.
                   </label>
                 </div>
               </div>
 
-              <button type="submit" disabled={isSubmitting} className="w-full py-4 text-white text-lg font-semibold rounded-lg transition-opacity hover:opacity-90" style={{ backgroundColor: isSubmitting ? '#9CA3AF' : '#F43F5E' }}>
+              <button type="submit" disabled={isSubmitting} className="w-full py-4 text-white text-lg font-semibold rounded-lg transition-opacity hover:opacity-90" style={{ backgroundColor: isSubmitting ? '#94A9A0' : '#F59E0B' }}>
                 {isSubmitting ? 'Submitting...' : 'Sign Us Up'}
               </button>
             </form>

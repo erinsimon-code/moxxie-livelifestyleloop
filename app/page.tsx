@@ -1,34 +1,34 @@
 import Link from 'next/link';
-import { Clock, ShieldCheck, CalendarCheck, Megaphone } from 'lucide-react';
+import { Flame, Trophy, CalendarCheck, Gift } from 'lucide-react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#030712' }}>
+    <div className="min-h-screen" style={{ backgroundColor: '#0B1512' }}>
       <Navbar />
 
       {/* Hero Section */}
-      <section className="py-24" style={{ backgroundColor: '#1F2937' }}>
+      <section className="py-24" style={{ backgroundColor: '#15261F' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold mb-6" style={{ backgroundColor: '#111827', color: '#6366F1' }}>
-              <Clock className="w-4 h-4" />
-              Point Penguin Plus
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold mb-6" style={{ backgroundColor: '#0F1F19', color: '#2DD4BF' }}>
+              <Flame className="w-4 h-4" />
+              Lifestyle Loop
             </div>
-            <h1 className="text-5xl font-extrabold sm:text-6xl md:text-7xl" style={{ color: '#F9FAFB' }}>
-              Recognition That Clocks In
-              <span className="block" style={{ color: '#6366F1' }}>With Your Team.</span>
+            <h1 className="text-5xl font-extrabold sm:text-6xl md:text-7xl" style={{ color: '#F2FBF7' }}>
+              Small Habits. Real Streaks.
+              <span className="block" style={{ color: '#2DD4BF' }}>Rewards You Can Redeem.</span>
             </h1>
-            <p className="mt-6 max-w-2xl mx-auto text-xl" style={{ color: '#9CA3AF' }}>
-              Point Penguin Plus is built for shift-based and hourly workforces. Managers hand out points for shift milestones, safety recognition, attendance streaks, and quick shout-outs — employees redeem them for rewards that feel worth the hustle.
+            <p className="mt-6 max-w-2xl mx-auto text-xl" style={{ color: '#94A9A0' }}>
+              Lifestyle Loop helps you build the daily habits that actually stick — hydration, steps, sleep, mindfulness, and reading. Check in each day, watch your streak grow, and turn every check-in into points you can spend in the Lifestyle Loop rewards catalog.
             </p>
             <div className="mt-10 flex justify-center gap-4 flex-wrap">
-              <Link href="/signup" className="px-8 py-4 text-white text-lg font-semibold rounded-lg shadow-lg transition-opacity hover:opacity-90" style={{ backgroundColor: '#F43F5E' }}>
+              <Link href="/signup" className="px-8 py-4 text-white text-lg font-semibold rounded-lg shadow-lg transition-opacity hover:opacity-90" style={{ backgroundColor: '#F59E0B' }}>
                 Get Started
               </Link>
-              <Link href="/about" className="px-8 py-4 text-lg font-semibold rounded-lg transition-opacity hover:opacity-90 border-2" style={{ color: '#6366F1', borderColor: '#6366F1', backgroundColor: '#111827' }}>
-                Learn More
+              <Link href="/how-it-works" className="px-8 py-4 text-lg font-semibold rounded-lg transition-opacity hover:opacity-90 border-2" style={{ color: '#2DD4BF', borderColor: '#2DD4BF', backgroundColor: '#0F1F19' }}>
+                See How It Works
               </Link>
             </div>
           </div>
@@ -36,59 +36,59 @@ export default function HomePage() {
       </section>
 
       {/* Features Section */}
-      <section className="py-20" style={{ backgroundColor: '#030712' }}>
+      <section className="py-20" style={{ backgroundColor: '#0B1512' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold" style={{ color: '#F9FAFB' }}>Four Ways to Recognize Your Crew</h2>
-            <p className="mt-4 text-xl" style={{ color: '#9CA3AF' }}>Purpose-built for the realities of shift work, not a repurposed office tool.</p>
+            <h2 className="text-4xl font-bold" style={{ color: '#F2FBF7' }}>The Loop That Keeps You Going</h2>
+            <p className="mt-4 text-xl" style={{ color: '#94A9A0' }}>Four simple moves, repeated daily, that turn good intentions into lasting habits.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow border" style={{ backgroundColor: '#1F2937', borderColor: '#374151' }}>
+            <div className="p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow border" style={{ backgroundColor: '#15261F', borderColor: '#233A30' }}>
               <div className="flex justify-center mb-4">
-                <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: '#111827' }}>
-                  <Clock className="w-7 h-7" style={{ color: '#F43F5E' }} />
+                <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: '#0F1F19' }}>
+                  <CalendarCheck className="w-7 h-7" style={{ color: '#F59E0B' }} />
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-center mb-3" style={{ color: '#F9FAFB' }}>Shift Milestones</h3>
-              <p className="text-center" style={{ color: '#9CA3AF' }}>Automatically award points for hours logged, shifts completed, and tenure anniversaries as they happen.</p>
+              <h3 className="text-xl font-bold text-center mb-3" style={{ color: '#F2FBF7' }}>Pick Your Habits</h3>
+              <p className="text-center" style={{ color: '#94A9A0' }}>Choose from hydration, steps, sleep, mindfulness, and reading — start with one or stack a few that fit your routine.</p>
             </div>
-            <div className="p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow border" style={{ backgroundColor: '#1F2937', borderColor: '#374151' }}>
+            <div className="p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow border" style={{ backgroundColor: '#15261F', borderColor: '#233A30' }}>
               <div className="flex justify-center mb-4">
-                <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: '#111827' }}>
-                  <ShieldCheck className="w-7 h-7" style={{ color: '#F43F5E' }} />
+                <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: '#0F1F19' }}>
+                  <Flame className="w-7 h-7" style={{ color: '#F59E0B' }} />
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-center mb-3" style={{ color: '#F9FAFB' }}>Safety Recognition</h3>
-              <p className="text-center" style={{ color: '#9CA3AF' }}>Give points for incident-free stretches, completed safety checks, and employees who flag hazards before they become problems.</p>
+              <h3 className="text-xl font-bold text-center mb-3" style={{ color: '#F2FBF7' }}>Check In Daily</h3>
+              <p className="text-center" style={{ color: '#94A9A0' }}>A quick daily check-in confirms you showed up — that's what keeps your streak alive and your momentum building.</p>
             </div>
-            <div className="p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow border" style={{ backgroundColor: '#1F2937', borderColor: '#374151' }}>
+            <div className="p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow border" style={{ backgroundColor: '#15261F', borderColor: '#233A30' }}>
               <div className="flex justify-center mb-4">
-                <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: '#111827' }}>
-                  <CalendarCheck className="w-7 h-7" style={{ color: '#F43F5E' }} />
+                <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: '#0F1F19' }}>
+                  <Trophy className="w-7 h-7" style={{ color: '#F59E0B' }} />
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-center mb-3" style={{ color: '#F9FAFB' }}>Attendance Streaks</h3>
-              <p className="text-center" style={{ color: '#9CA3AF' }}>Track consecutive on-time clock-ins and reward the reliability that keeps schedules covered.</p>
+              <h3 className="text-xl font-bold text-center mb-3" style={{ color: '#F2FBF7' }}>Build Streaks & Earn Points</h3>
+              <p className="text-center" style={{ color: '#94A9A0' }}>Every check-in earns points, and longer streaks earn more — consistency is rewarded, not just effort.</p>
             </div>
-            <div className="p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow border" style={{ backgroundColor: '#1F2937', borderColor: '#374151' }}>
+            <div className="p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow border" style={{ backgroundColor: '#15261F', borderColor: '#233A30' }}>
               <div className="flex justify-center mb-4">
-                <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: '#111827' }}>
-                  <Megaphone className="w-7 h-7" style={{ color: '#F43F5E' }} />
+                <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: '#0F1F19' }}>
+                  <Gift className="w-7 h-7" style={{ color: '#F59E0B' }} />
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-center mb-3" style={{ color: '#F9FAFB' }}>Manager Shout-Outs</h3>
-              <p className="text-center" style={{ color: '#9CA3AF' }}>Let supervisors send instant, point-backed recognition for the wins that don't fit a checklist.</p>
+              <h3 className="text-xl font-bold text-center mb-3" style={{ color: '#F2FBF7' }}>Redeem Rewards</h3>
+              <p className="text-center" style={{ color: '#94A9A0' }}>Cash in your points in the Lifestyle Loop rewards catalog for things worth looking forward to.</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-20" style={{ backgroundColor: '#1F2937' }}>
+      <section className="py-20" style={{ backgroundColor: '#15261F' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-6" style={{ color: '#F9FAFB' }}>Give Your Shift Teams a Reason to Stay</h2>
-          <p className="text-xl mb-10" style={{ color: '#9CA3AF' }}>See how Point Penguin Plus turns everyday shift work into recognition your frontline teams actually feel.</p>
-          <Link href="/signup" className="px-10 py-5 text-white text-xl font-semibold rounded-lg shadow-lg transition-opacity hover:opacity-90" style={{ backgroundColor: '#F43F5E' }}>
+          <h2 className="text-4xl font-bold mb-6" style={{ color: '#F2FBF7' }}>Start Your Loop Today</h2>
+          <p className="text-xl mb-10" style={{ color: '#94A9A0' }}>Pick a habit, check in tomorrow, and see how far a streak can take you.</p>
+          <Link href="/signup" className="px-10 py-5 text-white text-xl font-semibold rounded-lg shadow-lg transition-opacity hover:opacity-90" style={{ backgroundColor: '#F59E0B' }}>
             Get Started
           </Link>
         </div>

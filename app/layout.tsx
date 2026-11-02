@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Point Penguin Plus | Recognition for Frontline & Hourly Teams",
-  description: "Point Penguin Plus helps frontline and hourly teams earn real, redeemable points for shift milestones, safety recognition, attendance streaks, and manager shout-outs.",
+  title: "Lifestyle Loop | Build Habits, Keep Streaks, Earn Rewards",
+  description: "Lifestyle Loop helps you build better daily habits — hydration, steps, sleep, mindfulness, and reading — with daily check-ins, streaks, and points you redeem in the Lifestyle Loop rewards catalog.",
 };
 
 export default function RootLayout({

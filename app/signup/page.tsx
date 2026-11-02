@@ -76,10 +76,10 @@ export default function SignupPage() {
                 </div>
               </div>
               <div>
-                <label className="block text-sm font-medium mb-2" style={{ color: '#111827' }}>Phone Number *</label>
+                <label className="block text-sm font-medium mb-2" style={{ color: '#111827' }}>Phone Number (optional)</label>
                 <div className="relative">
                   <Phone className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: '#374151' }} />
-                  <input type="tel" name="phone" required value={formData.phone} onChange={handleChange} placeholder="(555) 555-5555" className="w-full pl-10 pr-4 py-3 rounded-lg border focus:outline-none" style={{ borderColor: '#E5E7EB', backgroundColor: '#FFFFFF', color: '#111827' }} />
+                  <input type="tel" name="phone" value={formData.phone} onChange={handleChange} placeholder="(555) 555-5555" className="w-full pl-10 pr-4 py-3 rounded-lg border focus:outline-none" style={{ borderColor: '#E5E7EB', backgroundColor: '#FFFFFF', color: '#111827' }} />
                 </div>
               </div>
               <div>

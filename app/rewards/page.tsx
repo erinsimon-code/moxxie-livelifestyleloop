@@ -62,7 +62,7 @@ export default function RewardsPage() {
             New rewards rotate into the catalog as you build your Loop, so there's always a reason to keep your streaks alive.
           </p>
           <Link href="/signup" className="inline-block px-10 py-5 text-xl font-semibold rounded-lg shadow-lg transition-opacity hover:opacity-90" style={{ backgroundColor: '#C79A3B', color: '#1A1A1A' }}>
-            Start Earning Points
+            Get Started
           </Link>
         </div>
       </section>

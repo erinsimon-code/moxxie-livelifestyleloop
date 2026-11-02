@@ -77,7 +77,7 @@ export default function HomePage() {
                 </div>
               </div>
               <h3 className="text-xl font-bold text-center mb-3" style={{ color: '#111827' }}>Redeem Rewards</h3>
-              <p className="text-center" style={{ color: '#374151' }}>Cash in your points in the Lifestyle Loop rewards catalog for things worth looking forward to.</p>
+              <p className="text-center" style={{ color: '#374151' }}>Redeem your points in the Lifestyle Loop rewards catalog for things worth looking forward to.</p>
             </div>
           </div>
         </div>

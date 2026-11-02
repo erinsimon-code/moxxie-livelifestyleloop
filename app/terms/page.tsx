@@ -24,7 +24,7 @@ export default function TermsPage() {
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#111827' }}>3. Text Message Program</h2>
           <p className="mb-4" style={{ color: '#374151' }}>
-            Opting in to receive texts means you're agreeing to get account notifications and/or promotional messages from Lifestyle Loop. Here's what to know:
+            Opting in to receive texts means you're agreeing to get account notification texts (check-in reminders, streak updates, and points confirmations), promotional texts (new habit challenges and new rewards), or both from Lifestyle Loop. Here's what to know:
           </p>
           <ul className="list-disc pl-6 mb-6 space-y-2" style={{ color: '#374151' }}>
             <li>Standard message and data rates may apply, and how often you hear from us can vary.</li>

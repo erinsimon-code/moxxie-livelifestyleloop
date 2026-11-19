@@ -105,8 +105,8 @@ export const MESSAGE_TYPES: MessageType[] = [
 // Samples 1–4: account notification examples.
 export const ACCOUNT_SAMPLE_MESSAGES: string[] = [
   "LifecycleLoop Live: Welcome aboard! Your next onboarding step is ready at lifecyclelooplive.com/portal. Reply HELP for help, STOP to opt out.",
-  "LifecycleLoop Live: Reminder: Safety training is tomorrow 11/20 at 9:00 AM. Details at lifecyclelooplive.com/portal. Reply STOP to opt out.",
-  "LifecycleLoop Live: Your shift on Sat 11/22 has changed to 10:00 AM-6:00 PM. View your schedule at lifecyclelooplive.com/portal. Reply STOP to opt out.",
+  "LifecycleLoop Live: Reminder: Safety training is Thu 12/3 at 9:00 AM. Details at lifecyclelooplive.com/portal. Reply STOP to opt out.",
+  "LifecycleLoop Live: Your shift on Sat 12/5 has changed to 10:00 AM-6:00 PM. View your schedule at lifecyclelooplive.com/portal. Reply STOP to opt out.",
   "LifecycleLoop Live: Your verification code is 482913. Enter it at lifecyclelooplive.com/verify to confirm your number. Reply HELP for help, STOP to opt out.",
 ];
 
